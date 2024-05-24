@@ -7,7 +7,7 @@ export default function AiCollections() {
 
   const loadData = async () => {
     try {
-      const response = await fetch("http://localhost:2222/api/fetchcollections", {
+      const response = await fetch("http://178.128.31.63/api/fetchcollections", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",

@@ -8,7 +8,7 @@ const AiTools = () => {
 
   const loadData = async () => {
     try {
-      const response = await fetch("http://localhost:2222/api/fetchtools", {
+      const response = await fetch("http://178.128.31.63/api/fetchtools", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
