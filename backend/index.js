@@ -6,10 +6,6 @@ const port = 2222
 const mongodb = require('./mongodb')
 mongodb()
 
-app.get('/', (req,res) => {
-    res.send('Hello Sus-Hacks')
-})
-
 try{
     app.use((req,res,next) => {
       res.setHeader("Access-Control-Allow-Origin","http://localhost:4040");
