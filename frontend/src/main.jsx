@@ -10,6 +10,7 @@ import AiTools from './components/AiTools.jsx'
 import AiDescription from './components/AiDescription.jsx'
 import AiCollections from './components/AiCollections.jsx'
 import AddTool from './components/AddTool.jsx'
+import Collection_desc from './components/collection_desc.jsx'
 // import User from './Components/User.jsx'
 
 // const router = createBrowserRouter([
@@ -41,8 +42,9 @@ const router = createBrowserRouter(
     <Route path='contact' element={<Contact/>} />
     <Route path='aiTools' element={<AiTools/>} />
     <Route path='aiCollections' element={<AiCollections/>} />
-    <Route path='aiTools/aiTooldesc/:name' element={<AiDescription/>} />
+    <Route path='aiTooldesc/:name' element={<AiDescription/>} />
     <Route path='addtool' element={<AddTool/>} />
+    <Route path='collectiondesc/:id' element={<Collection_desc/>} />
     {/* <Route path='user/:userid' element={<User/>}/> */}
   </Route>
   

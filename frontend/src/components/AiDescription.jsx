@@ -38,7 +38,7 @@ export default function AiDescription() {
 
     return (
       <div className="app bg-white">
-      <main className="grid grid-cols-1 lg:grid-cols-2 gap-6 my-12 mx-12 w-2xl container px-2 mx-auto">
+      <main className="grid grid-cols-1 lg:grid-cols-2 gap-6 my-12 w-2xl container px-2 mx-auto">
         <aside>
           <div className="bg-red-200 border border-black-200 shadow rounded-lg p-5">
             <div className="flex flex-col gap-1 text-center items-center">
@@ -421,5 +421,7 @@ export default function AiDescription() {
         </article>
       </main>
     </div>
-      );
+
+
+    );
 }
